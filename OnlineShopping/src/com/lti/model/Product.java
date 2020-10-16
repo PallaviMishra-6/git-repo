@@ -3,8 +3,16 @@ package com.lti.model;
 public class Product {
 int productId;
 String productName;
-
 	int quantity;	
+
+String productDescription;
+	int quantity;
+	double price;
+	
+	public double getPrice(){
+		return price;
+	}
+
 public int getProductId() {
 	return productId;
 }
